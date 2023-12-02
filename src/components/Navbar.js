@@ -38,13 +38,11 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
-          <a
-            className="nav-link text-decoration-none text-white font-weight-bold"
-            alt="brand"
-          >
+          <Link
+            to="/"
+            className="nav-link text-decoration-none text-white font-weight-bold">
             VZ.
-          </a>
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
